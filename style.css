@@ -1,0 +1,60 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #009688;
+}
+
+li {
+    font-size: 1.5rem;
+    color: #263238;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.header {
+    border-bottom: #CCC 1px solid;
+}
+
+.body {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.drop-zone {
+    width: 125px;
+    height: 125px;
+    border: 10px dashed #263238;
+    margin-right: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-zone--over { opacity: .5 }
+
+.zone-a {
+    border-color: #F44336;
+}
+
+.zone-b {
+    border-color: #2196F3;
+}
+
+#draggable {
+    width: 50px;
+    height: 50px;
+    background: #263238;
+    cursor: pointer
+}
