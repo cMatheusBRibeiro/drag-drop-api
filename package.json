@@ -1,0 +1,24 @@
+{
+  "name": "drag-drop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "lite-server -c configs/my-bs-config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cMatheusBRibeiro/drag-drop-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cMatheusBRibeiro/drag-drop-api/issues"
+  },
+  "homepage": "https://github.com/cMatheusBRibeiro/drag-drop-api#readme",
+  "dependencies": {
+    
+  }
+}
